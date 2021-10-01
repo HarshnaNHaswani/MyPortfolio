@@ -8,6 +8,7 @@ I know
     <li> CSS3
     <li> JavaScript
     <li> Node.js
+    <li>React.js
     <li> Repl.it
     <li> Chalk
 <ul>
