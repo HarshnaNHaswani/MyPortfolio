@@ -189,3 +189,7 @@ aside li{
     padding: 0.25rem;
 }
 
+img{
+    display:block;
+    padding: 1rem;
+}

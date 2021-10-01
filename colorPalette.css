@@ -1,0 +1,18 @@
+.colorPalette{
+    height: 1rem;
+    width: 5rem;
+    text-align: justify;
+}
+
+#brightEg1{
+    
+    margin:1rem;
+    color: transparent;
+    background-image: linear-gradient(to right, #f8d2d2, #fdcdcd, #f7b5b5, #ffa8a8, rgb(250, 123, 123));
+}
+
+#brightEg2{
+    margin:1rem;
+    color: transparent;
+    background-image: linear-gradient(to right, #b7cab8, #c2bebe, #858585, #21213f, rgb(209, 99, 55));
+}
