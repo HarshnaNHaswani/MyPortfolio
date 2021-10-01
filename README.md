@@ -3,9 +3,12 @@
 Hello I'm Harshna N Haswani! This is my Portfolio. I am a web developer.
 
 I know
-    HTML5
-    CSS3
-    JavaScript
-    Node.js
-    Repl.it
-    Chalk
+<ul>
+    <li> HTML5
+    <li> CSS3
+    <li> JavaScript
+    <li> Node.js
+    <li>React.js
+    <li> Repl.it
+    <li> Chalk
+<ul>
