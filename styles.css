@@ -172,7 +172,10 @@ a:hover{
 .footer ul{
     padding-inline-start: 0px;
 }
-
+.link img{
+    display: inline;
+    padding: 1rem;
+}
 /* aside */
 
 aside {
