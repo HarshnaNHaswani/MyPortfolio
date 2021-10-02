@@ -196,3 +196,8 @@ img{
     display:block;
     padding: 1rem;
 }
+iframe{
+    width:100%; 
+    height: fit-content;
+    overflow:auto;
+}
