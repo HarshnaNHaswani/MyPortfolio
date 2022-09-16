@@ -249,6 +249,7 @@ aside li {
 img {
   display: block;
   padding: 1rem;
+  max-width: 100%;
 }
 iframe {
   width: 60vw;
@@ -259,4 +260,20 @@ iframe {
 p {
   text-align: justify;
   hyphens: auto;
+}
+
+.blog-content {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+
+@media screen and (max-width: 45em){
+    .blog-content {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    iframe {
+        width: 100vw;
+        padding: 0;
+    }
 }
