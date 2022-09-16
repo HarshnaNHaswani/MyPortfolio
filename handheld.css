@@ -1,14 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Fira+Sans:wght@400;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Fira+Sans:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
 
 :root{
     /** entire page **/
     --primary-color: #441931;
-    --tryBlue: #191944;
+    --tryBlue: #070735;
     --dark-grey: #6B7280;
     --rosy-white: #ddbfd3;
+
     --off-white: #FFF0F5;
     --dark-pink: #310822; 
     --brand-color: #faebd7;
@@ -135,15 +136,17 @@ a:hover{
 /** section **/
 .section{
     padding: 1rem;
+    margin: 0 2em;
 }
 .section h3{
     text-align: center;
     /**  h3 tag inside section **/
 }
 
-.ow{
-    background-color: var(--rosy-white);
-}
+/* .ow{
+    background-color: var(--primary-color);
+    color: var(--tryBlue);
+} */
 
 /** footer **/
 .footer{
@@ -205,4 +208,7 @@ footer .list-item-inline img{
 
 .link .blog-title{
     padding: 0rem;
+}
+iframe{
+    width: 100%;
 }
